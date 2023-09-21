@@ -218,11 +218,11 @@ for shortname, rows in grouped_data.items():
         smtp_server = 'smtp.office365.com'
         smtp_port = 587
 
-        sender_email = 'it_support@nup.ac.cy'
-        sender_password = 'Giannakis345#$!'
+        sender_email = ''
+        sender_password = ''
 
         receiver_email = rows[0]['email']
-        # receiver_email= 'p.papagiannis@nup.ac.cy' #Test
+        # receiver_email= '' #Test
         subject = 'Αποτελέσματα αξιολόγησης από τους φοιτητές – Εαρινό εξ. 2023 (update)'
         body = 'Παρακαλώ όπως βρείτε συνημμένα τα αποτελέσματα αξιολόγησης από τους φοιτητές για το εαρινό εξάμηνο 2023. '
 
